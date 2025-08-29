@@ -1,0 +1,502 @@
+[
+  {
+    "machine": "Wheel Loader",
+    "system": "Engine",
+    "fault": "Hard starting",
+    "symptoms": "Long cranking, white smoke, low power",
+    "cause": "Air in fuel, clogged fuel filter, weak battery",
+    "repair": "Bleed fuel system, replace filters, test/replace battery or starter",
+    "prevention": "Replace fuel filters; keep battery maintained",
+    "severity": "High"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Engine",
+    "fault": "Engine overheating",
+    "symptoms": "High temp gauge, coolant boiling",
+    "cause": "Low coolant, clogged radiator, faulty thermostat, fan belt",
+    "repair": "Top up/flush coolant, clean radiator, replace thermostat, check belt",
+    "prevention": "Check coolant daily; clean radiator fins",
+    "severity": "High"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Hydraulic",
+    "fault": "Slow bucket response",
+    "symptoms": "Bucket raises slowly, weak breakout force",
+    "cause": "Low hydraulic oil, air in system, clogged filter, worn pump",
+    "repair": "Top up/bleed oil, replace filters, test/replace pump",
+    "prevention": "Check hydraulic level daily; replace filters on schedule",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Hydraulic",
+    "fault": "Hydraulic oil foaming",
+    "symptoms": "Foamy oil, erratic hydraulics, overheating",
+    "cause": "Air ingress, wrong oil, overfilled tank",
+    "repair": "Correct level, replace oil, fix breathers",
+    "prevention": "Use correct oil; maintain correct fill level",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Transmission",
+    "fault": "Slipping gears",
+    "symptoms": "Engine revs but slow travel",
+    "cause": "Low transmission oil, worn clutch packs, torque converter issues",
+    "repair": "Refill oil, replace filters, inspect clutch/TC",
+    "prevention": "Change transmission oil on schedule",
+    "severity": "High"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Electrical",
+    "fault": "No crank",
+    "symptoms": "Clicking relay or dead dash",
+    "cause": "Flat battery, corroded terminals, faulty starter",
+    "repair": "Charge/replace battery, clean terminals, test starter",
+    "prevention": "Maintain battery terminals; check charging system",
+    "severity": "High"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Brakes",
+    "fault": "Brake fade",
+    "symptoms": "Long stopping distance, burning smell",
+    "cause": "Overheated brakes, worn linings, low fluid",
+    "repair": "Allow to cool, replace linings, bleed system",
+    "prevention": "Use engine braking; inspect linings",
+    "severity": "High"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Steering",
+    "fault": "Hard steering",
+    "symptoms": "Difficult to turn, delayed response",
+    "cause": "Low steering oil, worn pump, leaking cylinder",
+    "repair": "Top steering oil, repair leaks, replace pump",
+    "prevention": "Check steering hydraulics daily",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Tires",
+    "fault": "Tire cuts or bulges",
+    "symptoms": "Visible cuts, bulging, slow leaks",
+    "cause": "Sharp debris, overload, underinflation",
+    "repair": "Replace damaged tyre, inspect rim",
+    "prevention": "Inspect tyres daily; avoid overload",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Electrical",
+    "fault": "Warning codes",
+    "symptoms": "Fault codes on display, reduced performance",
+    "cause": "Sensor faults, ECM issues, wiring damage",
+    "repair": "Read codes, repair/replace sensors/wiring",
+    "prevention": "Regular diagnostic checks",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Attachments",
+    "fault": "Bucket linkage seize",
+    "symptoms": "Bucket stiff or stuck, noisy",
+    "cause": "Dirt ingress, lack of lubrication, worn pins",
+    "repair": "Clean, lubricate, replace pins/bushes",
+    "prevention": "Grease pins daily; shield linkage",
+    "severity": "Low"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Cooling",
+    "fault": "Cooler blockage",
+    "symptoms": "Reduced cooling, overheating",
+    "cause": "Dusty environment clogging core",
+    "repair": "Blow out cores, clean fins, fit screens",
+    "prevention": "Daily cleaning in dusty sites",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Wheel Loader",
+    "system": "Fuel",
+    "fault": "Fuel contamination",
+    "symptoms": "Rough idle, misfires, power loss",
+    "cause": "Water in fuel, microbial growth",
+    "repair": "Drain separator, replace filters, clean tank",
+    "prevention": "Use clean fuel; keep tanks sealed",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Engine",
+    "fault": "Engine misfire",
+    "symptoms": "Black smoke, rough running",
+    "cause": "Faulty injectors, turbo faults, clogged air filter",
+    "repair": "Test injectors, service turbo, replace air elements",
+    "prevention": "Run clean air intake; test injectors",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Transmission",
+    "fault": "Won't move in gear",
+    "symptoms": "Engine revs but no travel",
+    "cause": "Low transmission oil, worn clutch packs",
+    "repair": "Refill oil, replace filters, overhaul clutch/TC",
+    "prevention": "Monitor oil level and temp",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Hydraulic",
+    "fault": "Blade won't lift",
+    "symptoms": "Blade stays down or slow",
+    "cause": "Control valve fault, leaking cylinder, air",
+    "repair": "Test/replace valve, repair cylinder, bleed system",
+    "prevention": "Check valves & hoses monthly",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Undercarriage",
+    "fault": "Track derailing",
+    "symptoms": "Track walks off sprocket",
+    "cause": "Loose tension, worn rollers, debris",
+    "repair": "Adjust tension, replace parts, clean undercarriage",
+    "prevention": "Clean daily; maintain sag",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Steering",
+    "fault": "Poor steering response",
+    "symptoms": "Delayed turns, heavy effort",
+    "cause": "Pump wear, low steering oil, damaged hoses",
+    "repair": "Replace pump/hoses, top oil",
+    "prevention": "Steering oil checks; inspect linkages",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Cooling",
+    "fault": "Radiator leak",
+    "symptoms": "Coolant loss, overheating",
+    "cause": "Core corrosion, puncture",
+    "repair": "Repair/replace radiator, flush system",
+    "prevention": "Fit guards; inspect cores",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Electrical",
+    "fault": "Starter intermittent",
+    "symptoms": "Sometimes won't crank, clicking",
+    "cause": "Starter solenoid fault, poor battery connection",
+    "repair": "Test solenoid, clean terminals, replace starter",
+    "prevention": "Test battery under load",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Engine",
+    "fault": "White smoke",
+    "symptoms": "White smoke on start or continuous",
+    "cause": "Coolant entering combustion (head gasket)",
+    "repair": "Compression test; repair/replace head gasket",
+    "prevention": "Monitor coolant consumption",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Hydraulic",
+    "fault": "Hydraulic overheating",
+    "symptoms": "High hydraulic temp, loss of power",
+    "cause": "Overworked system, blocked cooler",
+    "repair": "Check cooler, reduce load, replace oil",
+    "prevention": "Monitor hydraulic temp",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Fuel",
+    "fault": "Contaminated fuel",
+    "symptoms": "Stalling, filter blockage",
+    "cause": "Water/dirt in fuel",
+    "repair": "Drain separators, replace filters",
+    "prevention": "Use clean fuel; change often",
+    "severity": "High"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Undercarriage",
+    "fault": "Sprocket wear",
+    "symptoms": "Increased track pitch, noisy",
+    "cause": "Fatigue, abrasive conditions",
+    "repair": "Replace sprockets, inspect track pins",
+    "prevention": "Rotate parts; inspect after heavy use",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Attachments",
+    "fault": "Ripper poor penetration",
+    "symptoms": "Ripper bounces, poor penetration",
+    "cause": "Worn ripper teeth, angle wrong",
+    "repair": "Replace teeth, adjust angle, train operator",
+    "prevention": "Inspect teeth and angle regularly",
+    "severity": "Low"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Brakes",
+    "fault": "Brake drag",
+    "symptoms": "Brakes stay on, heat",
+    "cause": "Stuck caliper, misadjusted linkage",
+    "repair": "Inspect/free caliper, adjust linkage",
+    "prevention": "Regular brake inspections",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "fault": "Boom won't lift",
+    "symptoms": "Boom weak or no lift under load",
+    "cause": "Worn boom seals, faulty relief, low pump flow",
+    "repair": "Repack/replace seals, adjust relief, test pump",
+    "prevention": "Oil analysis; keep suction strainers clean",
+    "severity": "High"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Engine",
+    "fault": "Black smoke",
+    "symptoms": "Sooty exhaust, sluggish",
+    "cause": "Restricted air filter, turbo failure, injector overfuel",
+    "repair": "Replace air elements, test turbo, test injectors",
+    "prevention": "Service air filters frequently",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Travel",
+    "fault": "One track slow",
+    "symptoms": "Machine veers, one side weak",
+    "cause": "Travel motor failure, blocked case drain",
+    "repair": "Check case drain, test motor, inspect pilot pressures",
+    "prevention": "Change final drive oil; test motors",
+    "severity": "High"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Electrical",
+    "fault": "Battery not charging",
+    "symptoms": "Battery light on, dimming lights",
+    "cause": "Failed alternator, loose belt, corroded terminals",
+    "repair": "Test/replace alternator, replace/tension belt, clean terminals",
+    "prevention": "Weekly belt checks",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Attachments",
+    "fault": "Quick coupler fail",
+    "symptoms": "Attachment drops or won't lock",
+    "cause": "Worn latch, hydraulic leak, control valve issue",
+    "repair": "Replace latch, repair leak, test valve",
+    "prevention": "Inspect coupler daily",
+    "severity": "High"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "fault": "Control valve leak",
+    "symptoms": "Leaking spool, jerky movement",
+    "cause": "Worn seals, contaminated oil",
+    "repair": "Rebuild/replace valve, flush system",
+    "prevention": "Keep oil clean; change filters",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Undercarriage",
+    "fault": "Loose track tension",
+    "symptoms": "Excess sag, noisy travel",
+    "cause": "Tensioner failure, worn adjuster",
+    "repair": "Repair tensioner, set sag correctly",
+    "prevention": "Daily checks; correct tension",
+    "severity": "Low"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "fault": "Pilot pressure loss",
+    "symptoms": "Joystick weak, delayed response",
+    "cause": "Clogged pilot filter, leak in pilot line",
+    "repair": "Replace pilot filter, pressure test lines",
+    "prevention": "Replace pilot filters on schedule",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Cooling",
+    "fault": "Engine overheating",
+    "symptoms": "High temp, warning, power loss",
+    "cause": "Clogged radiator, failed fan clutch, low coolant",
+    "repair": "Clean radiator, replace fan clutch, top coolant",
+    "prevention": "Keep cores clean; monitor coolant",
+    "severity": "High"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Engine",
+    "fault": "High oil consumption",
+    "symptoms": "Low oil between services",
+    "cause": "Worn piston rings, valve seals, oil leaks",
+    "repair": "Compression test, inspect leaks, overhaul engine",
+    "prevention": "Monitor oil level; scheduled analysis",
+    "severity": "High"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Electrical",
+    "fault": "Monitor fault codes",
+    "symptoms": "Warnings, limp mode",
+    "cause": "Sensor failure, wiring, ECM error",
+    "repair": "Read codes with tool, repair sensors/wiring",
+    "prevention": "Record codes; inspect harness",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "fault": "Slew motor noisy",
+    "symptoms": "Noise when slewing, rough rotate",
+    "cause": "Worn motor bearings, contaminated oil",
+    "repair": "Inspect motor, change oil, replace if needed",
+    "prevention": "Regular oil monitoring",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Excavator",
+    "system": "Fuel",
+    "fault": "Fuel starvation",
+    "symptoms": "Engine stalls under load",
+    "cause": "Clogged filter, water in fuel, failing pump",
+    "repair": "Replace filters, drain separators, test pump",
+    "prevention": "Change fuel filters on schedule",
+    "severity": "High"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Mast / Lift",
+    "fault": "Mast won't lift",
+    "symptoms": "No lift, jerky or uneven stages",
+    "cause": "Stretched chains, leaking cylinder, sticky valve",
+    "repair": "Adjust/replace chains, rebuild cylinder, service valve",
+    "prevention": "Lubricate chains; inspect rollers",
+    "severity": "High"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Brakes",
+    "fault": "Poor braking",
+    "symptoms": "Spongy pedal, long stopping distance",
+    "cause": "Air in lines, low brake fluid, worn pads",
+    "repair": "Bleed lines, refill fluid, replace pads",
+    "prevention": "Check brakes weekly; fix leaks",
+    "severity": "High"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Drive",
+    "fault": "No forward but reverse ok",
+    "symptoms": "Only moves in reverse",
+    "cause": "Directional solenoid fault, worn clutch",
+    "repair": "Test/replace solenoid, inspect clutch packs",
+    "prevention": "Maintain transmission oil",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Electrical",
+    "fault": "Ignition key won't turn",
+    "symptoms": "Key won't turn or starter won't engage",
+    "cause": "Steering lock, worn key, ignition switch failure",
+    "repair": "Check steering lock, try spare key, replace switch",
+    "prevention": "Keep spare key; service ignition",
+    "severity": "Low"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Operator Error",
+    "fault": "Machine tipping during load",
+    "symptoms": "Front wheels lift, mast tilts",
+    "cause": "Overloading, mast too high while moving",
+    "repair": "Lower load, re-level, retrain operator",
+    "prevention": "Keep forks low; follow load chart",
+    "severity": "High"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Fuel",
+    "fault": "LPG supply fail",
+    "symptoms": "Engine stalls, won't run on LPG",
+    "cause": "Regulator fault, empty tank, leak",
+    "repair": "Inspect regulator, replace/refill tank, check lines",
+    "prevention": "Regular LPG inspections & leak checks",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Battery",
+    "fault": "Battery won't hold charge",
+    "symptoms": "Dies quickly after charging",
+    "cause": "Old battery, cell short, bad charger",
+    "repair": "Load-test & replace battery, test charger",
+    "prevention": "Proper charging cycles; maintenance",
+    "severity": "High"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Mast / Lift",
+    "fault": "Chain stretch",
+    "symptoms": "Uneven lift, noisy chains",
+    "cause": "Worn chain, poor lubrication",
+    "repair": "Adjust/replace chain, lubricate",
+    "prevention": "Inspect & lubricate chains",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Tires",
+    "fault": "Tire chunking/wear",
+    "symptoms": "Chunks missing, uneven wear",
+    "cause": "Overload, wrong tire type, underinflation",
+    "repair": "Replace tires, correct inflation, check load limits",
+    "prevention": "Use correct tires; maintain pressure",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Hydraulic",
+    "fault": "Cylinder leak",
+    "symptoms": "Oil puddle, slow lift",
+    "cause": "Worn seals, damaged cylinder",
+    "repair": "Replace seals or cylinder, check relief valve",
+    "prevention": "Inspect seals; avoid pressure spikes",
+    "severity": "Medium"
+  },
+  {
+    "machine": "Forklift",
+    "system": "Electrical",
+    "fault": "Mast control switch fail",
+    "symptoms": "Mast doesn't respond to switches",
+    "cause": "Faulty switches, wiring, ECU issue",
+    "repair": "Test/replace switches, repair wiring",
+    "prevention": "Protect switches; regular checks",
+    "severity": "Low"
+  }
+]

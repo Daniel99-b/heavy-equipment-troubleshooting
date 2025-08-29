@@ -1,0 +1,1 @@
+export default function SearchBar({value,onChange}){ return (<input className="p-2 border rounded w-96" placeholder="Search faults, symptoms, causes..." value={value} onChange={e=>onChange(e.target.value)} />) }
