@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="track" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#5b626a"/>
+      <stop offset="1" stop-color="#2b3136"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="#f4f6f9"/>
+  <g filter="url(#shadow)">
+    <rect x="100" y="200" width="1000" height="80" rx="24" fill="url(#track)"/>
+    <!-- Treads -->
+    <g fill="#1e2327">
+      <!-- 18 treads -->
+      <rect x="120" y="210" width="36" height="60" rx="8"/>
+<rect x="172" y="210" width="36" height="60" rx="8"/>
+<rect x="224" y="210" width="36" height="60" rx="8"/>
+<rect x="276" y="210" width="36" height="60" rx="8"/>
+<rect x="328" y="210" width="36" height="60" rx="8"/>
+<rect x="380" y="210" width="36" height="60" rx="8"/>
+<rect x="432" y="210" width="36" height="60" rx="8"/>
+<rect x="484" y="210" width="36" height="60" rx="8"/>
+<rect x="536" y="210" width="36" height="60" rx="8"/>
+<rect x="588" y="210" width="36" height="60" rx="8"/>
+<rect x="640" y="210" width="36" height="60" rx="8"/>
+<rect x="692" y="210" width="36" height="60" rx="8"/>
+<rect x="744" y="210" width="36" height="60" rx="8"/>
+<rect x="796" y="210" width="36" height="60" rx="8"/>
+<rect x="848" y="210" width="36" height="60" rx="8"/>
+<rect x="900" y="210" width="36" height="60" rx="8"/>
+<rect x="952" y="210" width="36" height="60" rx="8"/>
+<rect x="1004" y="210" width="36" height="60" rx="8"/>
+    </g>
+    <!-- Roller wheels -->
+    <g fill="#2e3439">
+      <circle cx="160" cy="260" r="20"/>
+<circle cx="220" cy="260" r="20"/>
+<circle cx="280" cy="260" r="20"/>
+<circle cx="340" cy="260" r="20"/>
+<circle cx="400" cy="260" r="20"/>
+<circle cx="460" cy="260" r="20"/>
+<circle cx="520" cy="260" r="20"/>
+<circle cx="580" cy="260" r="20"/>
+<circle cx="640" cy="260" r="20"/>
+<circle cx="700" cy="260" r="20"/>
+<circle cx="760" cy="260" r="20"/>
+<circle cx="820" cy="260" r="20"/>
+<circle cx="880" cy="260" r="20"/>
+<circle cx="940" cy="260" r="20"/>
+<circle cx="1000" cy="260" r="20"/>
+<circle cx="1060" cy="260" r="20"/>
+    </g>
+  </g>
+</svg>

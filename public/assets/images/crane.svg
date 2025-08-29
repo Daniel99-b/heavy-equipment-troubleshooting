@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="boom" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd24d"/>
+      <stop offset="1" stop-color="#cc9700"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+
+  <rect width="1200" height="700" fill="#e9f1f7"/>
+  <rect y="560" width="1200" height="140" fill="#d7c5ae"/>
+
+  <!-- Base truck -->
+  <g filter="url(#shadow)">
+    <rect x="260" y="460" width="380" height="80" rx="12" fill="#2f363b"/>
+    <circle cx="320" cy="540" r="40" fill="#2e3439"/>
+    <circle cx="480" cy="540" r="40" fill="#2e3439"/>
+  </g>
+
+  <!-- Tower -->
+  <g filter="url(#shadow)">
+    <rect x="600" y="300" width="30" height="240" fill="url(#boom)"/>
+    <rect x="590" y="280" width="50" height="20" fill="#2f363b"/>
+  </g>
+
+  <!-- Boom -->
+  <g filter="url(#shadow)">
+    <rect x="620" y="280" width="340" height="20" rx="8" fill="url(#boom)"/>
+    <line x1="630" y1="290" x2="940" y2="290" stroke="#b78a00" stroke-width="2"/>
+    <line x1="630" y1="290" x2="770" y2="240" stroke="#2f363b" stroke-width="3"/>
+    <circle cx="770" cy="240" r="8" fill="#2f363b"/>
+  </g>
+
+  <!-- Hook -->
+  <g filter="url(#shadow)">
+    <rect x="936" y="290" width="4" height="160" fill="#2f363b"/>
+    <path d="M928,450 a16,16 0 1,0 32,0 v-16 h-32 z" fill="#2f363b"/>
+  </g>
+</svg>

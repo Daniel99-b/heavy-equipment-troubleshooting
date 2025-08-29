@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs>
+    <linearGradient id="hose" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#42474d"/>
+      <stop offset="1" stop-color="#1f2326"/>
+    </linearGradient>
+    <linearGradient id="fitting" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#cfd6dc"/>
+      <stop offset="1" stop-color="#8c949c"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+
+  <rect width="1000" height="700" fill="#f2f4f7"/>
+  <g filter="url(#shadow)">
+    <path d="M80,520 C220,420 340,420 520,480 C700,540 820,540 920,460"
+          fill="none" stroke="url(#hose)" stroke-width="42" stroke-linecap="round"/>
+    <circle cx="520" cy="480" r="30" fill="url(#fitting)"/>
+    <rect x="500" y="450" width="40" height="60" rx="8" fill="url(#fitting)"/>
+    <circle cx="920" cy="460" r="34" fill="url(#fitting)"/>
+    <rect x="900" y="440" width="40" height="60" rx="8" fill="url(#fitting)"/>
+  </g>
+</svg>

@@ -1,1 +1,41 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'><rect width='100%' height='100%' fill='#f87171'/><text x='50%' y='50%' font-size='72' fill='white' text-anchor='middle' dominant-baseline='middle'>Engine Overheat</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="block" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b7c0c8"/>
+      <stop offset="1" stop-color="#808891"/>
+    </linearGradient>
+    <linearGradient id="heat" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff7b00"/>
+      <stop offset="1" stop-color="#d62b00"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+
+  <rect width="900" height="700" fill="#0f1317"/>
+  <g transform="translate(80,160)" filter="url(#shadow)">
+    <!-- Engine block -->
+    <rect x="0" y="80" width="560" height="220" rx="18" fill="url(#block)"/>
+    <rect x="40" y="40" width="200" height="60" rx="10" fill="#69727a"/>
+    <circle cx="520" cy="190" r="84" fill="#707781"/>
+    <circle cx="520" cy="190" r="58" fill="#3a3f45"/>
+    <rect x="80" y="120" width="320" height="40" rx="6" fill="#5a626a"/>
+    <rect x="80" y="180" width="320" height="40" rx="6" fill="#5a626a"/>
+    <!-- Hoses -->
+    <path d="M560,170 C650,150 720,160 760,200 C800,240 780,300 720,320 L640,340"
+          fill="none" stroke="#4f565e" stroke-width="28" stroke-linecap="round"/>
+  </g>
+
+  <!-- Heat glow -->
+  <g filter="url(#blur)">
+    <ellipse cx="620" cy="340" rx="140" ry="90" fill="url(#heat)" opacity="0.65"/>
+    <ellipse cx="300" cy="290" rx="160" ry="60" fill="url(#heat)" opacity="0.35"/>
+  </g>
+
+  <!-- Warning symbol -->
+  <g transform="translate(680,120)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="54" fill="url(#heat)"/>
+    <rect x="-6" y="-26" width="12" height="34" rx="4" fill="#fff"/>
+    <rect x="-6" y="12" width="12" height="12" rx="2" fill="#fff"/>
+  </g>
+</svg>

@@ -1,1 +1,60 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'><rect width='100%' height='100%' fill='#f59e0b'/><text x='50%' y='50%' font-size='72' fill='white' text-anchor='middle' dominant-baseline='middle'>Forklift Hydraulic</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700">
+  <defs>
+    <linearGradient id="cab" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffcc4d"/>
+      <stop offset="1" stop-color="#c99900"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bfc6cc"/>
+      <stop offset="1" stop-color="#8b939c"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+
+  <rect width="1100" height="700" fill="#eef3f7"/>
+  <rect y="560" width="1100" height="140" fill="#d1d9de"/>
+
+  <!-- Mast -->
+  <g transform="translate(700,140)" filter="url(#shadow)">
+    <rect x="0" y="0" width="28" height="380" rx="6" fill="#30363b"/>
+    <rect x="90" y="0" width="28" height="380" rx="6" fill="#30363b"/>
+    <rect x="-40" y="360" width="220" height="18" rx="6" fill="#2c3136"/>
+    <rect x="-20" y="378" width="180" height="14" rx="5" fill="#2c3136"/>
+    <!-- Hydraulic cylinder -->
+    <rect x="44" y="40" width="30" height="240" rx="10" fill="#1e2327"/>
+    <rect x="49" y="50" width="20" height="220" rx="8" fill="url(#steel)"/>
+  </g>
+
+  <!-- Truck body -->
+  <g transform="translate(220,300)" filter="url(#shadow)">
+    <rect x="0" y="-40" width="380" height="140" rx="16" fill="url(#cab)"/>
+    <rect x="60" y="-100" width="150" height="80" rx="10" fill="#4a5d6f"/>
+    <rect x="70" y="-92" width="130" height="64" rx="8" fill="#92b4c6" opacity="0.9"/>
+    <rect x="250" y="-30" width="100" height="60" rx="10" fill="#3b434a"/>
+  </g>
+
+  <!-- Wheels -->
+  <g filter="url(#shadow)">
+    <circle cx="320" cy="500" r="60" fill="#2e3439"/>
+    <circle cx="320" cy="500" r="32" fill="#5b676e"/>
+    <circle cx="540" cy="520" r="72" fill="#2e3439"/>
+    <circle cx="540" cy="520" r="38" fill="#5b676e"/>
+  </g>
+
+  <!-- Forks -->
+  <g transform="translate(720,500)" filter="url(#shadow)">
+    <rect x="0" y="0" width="220" height="16" rx="6" fill="#2c3136"/>
+    <rect x="0" y="24" width="220" height="16" rx="6" fill="#2c3136"/>
+    <rect x="-10" y="-40" width="38" height="44" rx="6" fill="#2c3136"/>
+  </g>
+
+  <!-- Pallet box -->
+  <g transform="translate(940,490)" filter="url(#shadow)">
+    <rect x="-120" y="-120" width="110" height="110" rx="10" fill="#caa37b"/>
+    <g stroke="#a67c52" stroke-width="6">
+      <line x1="-120" y1="-85" x2="-10" y2="-85"/>
+      <line x1="-120" y1="-50" x2="-10" y2="-50"/>
+      <line x1="-120" y1="-15" x2="-10" y2="-15"/>
+    </g>
+  </g>
+</svg>
