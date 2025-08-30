@@ -5,9 +5,9 @@
     "fault": "Engine Overheating",
     "symptoms": "High temp gauge, loss of power",
     "cause": "Clogged radiator, low coolant",
-    "repair": "Flush radiator, top up coolant",
+    "repair": "Flush radiator, refill coolant",
     "severity": "Critical",
-    "image": "/assets/images/engine-overheat.svg"
+    "image": "/assets/images/hero-bg.svg"
   },
   {
     "machine": "Wheel Loader",
@@ -15,117 +15,117 @@
     "fault": "Slow bucket response",
     "symptoms": "Slow lift, weak breakout force",
     "cause": "Low hydraulic oil, clogged filter",
-    "repair": "Top up oil, replace filter, bleed system",
+    "repair": "Top up oil, replace filter",
     "severity": "Major",
-    "image": "/assets/images/hydraulic-leak.svg"
+    "image": "/assets/images/icon-hydraulic.svg"
   },
   {
     "machine": "Wheel Loader",
     "system": "Transmission",
     "fault": "Slipping gears",
     "symptoms": "Engine revs but slow travel",
-    "cause": "Worn clutch packs, low transmission oil",
-    "repair": "Refill oil, inspect clutch packs",
+    "cause": "Worn clutch packs",
+    "repair": "Inspect/replace clutch packs",
     "severity": "Major",
-    "image": "/assets/images/loader.svg"
+    "image": "/assets/images/icon-transmission.svg"
   },
   {
     "machine": "Wheel Loader",
     "system": "Electrical",
     "fault": "No crank",
-    "symptoms": "Clicking on start, no crank",
-    "cause": "Flat battery or corroded terminals",
+    "symptoms": "Clicking on start",
+    "cause": "Dead battery or corroded terminals",
     "repair": "Charge/replace battery, clean terminals",
     "severity": "Critical",
-    "image": "/assets/images/loader.svg"
+    "image": "/assets/images/icon-electrical.svg"
   },
   {
     "machine": "Wheel Loader",
     "system": "Tires",
-    "fault": "Tire cut or bulge",
-    "symptoms": "Visible bulge or cut, slow leak",
-    "cause": "Puncture from sharp object",
-    "repair": "Replace tyre, inspect rim",
+    "fault": "Tire bulge",
+    "symptoms": "Visible bulge or slow leak",
+    "cause": "Puncture or internal break",
+    "repair": "Replace tire",
     "severity": "Minor",
-    "image": "/assets/images/loader.svg"
+    "image": "/assets/images/loader-thumb.svg"
   },
   {
     "machine": "Wheel Loader",
     "system": "Cooling",
     "fault": "Cooler blockage",
-    "symptoms": "Reduced cooling, overheating",
-    "cause": "Dust clogged core",
-    "repair": "Blow out cores, install screen",
+    "symptoms": "Reduced cooling in dusty conditions",
+    "cause": "Dirty core",
+    "repair": "Clean core, fit guard",
     "severity": "Major",
-    "image": "/assets/images/loader.svg"
+    "image": "/assets/images/hero-bg.svg"
   },
   {
     "machine": "Bulldozer",
     "system": "Engine",
     "fault": "White smoke on start",
-    "symptoms": "White smoke, coolant loss",
-    "cause": "Head gasket leak or cracked head",
-    "repair": "Compression test, repair head gasket",
+    "symptoms": "White smoke, coolant drop",
+    "cause": "Head gasket leak",
+    "repair": "Repair/replace head gasket",
     "severity": "Critical",
-    "image": "/assets/images/bulldozer-blade.svg"
+    "image": "/assets/images/hero-bg.svg"
   },
   {
     "machine": "Bulldozer",
     "system": "Hydraulic",
     "fault": "Blade won't lift",
     "symptoms": "Blade stuck or slow",
-    "cause": "Valve issue, leaking cylinder",
-    "repair": "Inspect valve, repair cylinder, bleed",
+    "cause": "Control valve fault",
+    "repair": "Test/replace valve, bleed system",
     "severity": "Major",
-    "image": "/assets/images/bulldozer-blade.svg"
+    "image": "/assets/images/icon-hydraulic.svg"
   },
   {
     "machine": "Bulldozer",
     "system": "Undercarriage",
     "fault": "Track derailing",
     "symptoms": "Track walks off sprocket",
-    "cause": "Loose track tension, worn rollers",
-    "repair": "Adjust tension, replace rollers",
+    "cause": "Loose tension",
+    "repair": "Adjust tension, inspect rollers",
     "severity": "Major",
-    "image": "/assets/images/bulldozer-blade.svg"
+    "image": "/assets/images/icon-transmission.svg"
   },
   {
     "machine": "Bulldozer",
     "system": "Cooling",
     "fault": "Radiator leak",
-    "symptoms": "Coolant puddle under machine",
-    "cause": "Punctured core or corroded pipe",
-    "repair": "Replace radiator core, pressure test",
+    "symptoms": "Coolant puddle",
+    "cause": "Core puncture or corrosion",
+    "repair": "Replace radiator, pressure test",
     "severity": "Critical",
-    "image": "/assets/images/bulldozer-blade.svg"
-  },
-  {
-    "machine": "Bulldozer",
-    "system": "Transmission",
-    "fault": "No travel in gear",
-    "symptoms": "Engine revs but no movement",
-    "cause": "Torque converter or clutch pack failure",
-    "repair": "Inspect torque converter, service clutch packs",
-    "severity": "Major",
-    "image": "/assets/images/bulldozer-blade.svg"
+    "image": "/assets/images/hero-bg.svg"
   },
   {
     "machine": "Bulldozer",
     "system": "Electrical",
-    "fault": "Starter intermittent",
+    "fault": "Starter fail intermittently",
     "symptoms": "Sometimes won't crank",
-    "cause": "Faulty solenoid or loose connection",
-    "repair": "Test solenoid, fix connections, replace starter",
+    "cause": "Faulty solenoid",
+    "repair": "Test/replace solenoid, clean terminals",
     "severity": "Major",
-    "image": "/assets/images/bulldozer-blade.svg"
+    "image": "/assets/images/icon-electrical.svg"
+  },
+  {
+    "machine": "Bulldozer",
+    "system": "Fuel",
+    "fault": "Fuel filter clog",
+    "symptoms": "Engine stalling under load",
+    "cause": "Dirty fuel",
+    "repair": "Replace filters, clean tank",
+    "severity": "Major",
+    "image": "/assets/images/loader-thumb.svg"
   },
   {
     "machine": "Excavator",
     "system": "Hydraulic",
     "fault": "Boom won't lift",
     "symptoms": "Boom weak under load",
-    "cause": "Worn seals or pump issue",
-    "repair": "Rebuild cylinder, test pump",
+    "cause": "Cylinder seal wear",
+    "repair": "Rebuild cylinder",
     "severity": "Critical",
     "image": "/assets/images/excavator-boom.svg"
   },
@@ -133,58 +133,58 @@
     "machine": "Excavator",
     "system": "Engine",
     "fault": "Black smoke / low power",
-    "symptoms": "Sooty exhaust, low power",
-    "cause": "Restricted air filter or turbo issue",
-    "repair": "Replace air elements, test turbo",
+    "symptoms": "Black smoke, low power",
+    "cause": "Restricted air filter",
+    "repair": "Replace air elements",
     "severity": "Major",
-    "image": "/assets/images/excavator-boom.svg"
+    "image": "/assets/images/hero-bg.svg"
   },
   {
     "machine": "Excavator",
     "system": "Travel",
     "fault": "One track slow",
     "symptoms": "Machine veers to one side",
-    "cause": "Travel motor failure, case drain blocked",
-    "repair": "Test travel motor, inspect case drain",
+    "cause": "Travel motor issue",
+    "repair": "Test & repair motor",
     "severity": "Major",
-    "image": "/assets/images/excavator-boom.svg"
+    "image": "/assets/images/icon-transmission.svg"
   },
   {
     "machine": "Excavator",
     "system": "Attachments",
     "fault": "Quick coupler fail",
-    "symptoms": "Attachment drops unexpectedly",
-    "cause": "Worn latch or hydraulic leak",
-    "repair": "Repair latch, fix hydraulic leak",
+    "symptoms": "Attachment drops",
+    "cause": "Worn latch",
+    "repair": "Replace latch, test hydraulic",
     "severity": "Critical",
-    "image": "/assets/images/excavator-boom.svg"
+    "image": "/assets/images/icon-hydraulic.svg"
   },
   {
     "machine": "Excavator",
     "system": "Hydraulic",
-    "fault": "Control valve leak",
-    "symptoms": "Jerky controls, poor performance",
-    "cause": "Worn spool seals",
-    "repair": "Rebuild/replace valve, flush system",
+    "fault": "Pilot pressure loss",
+    "symptoms": "Weak joystick response",
+    "cause": "Clogged pilot filter",
+    "repair": "Replace pilot filter, flush lines",
     "severity": "Major",
     "image": "/assets/images/excavator-boom.svg"
   },
   {
     "machine": "Excavator",
     "system": "Cooling",
-    "fault": "Engine overheating",
+    "fault": "Overheating",
     "symptoms": "High temp under load",
     "cause": "Clogged radiator or fan failure",
-    "repair": "Clean cores, replace fan clutch",
+    "repair": "Clean cores, check fan",
     "severity": "Critical",
-    "image": "/assets/images/excavator-boom.svg"
+    "image": "/assets/images/hero-bg.svg"
   },
   {
     "machine": "Forklift",
-    "system": "Mast / Lift",
+    "system": "Mast/Lift",
     "fault": "Mast won't lift",
     "symptoms": "No lift or jerky lift",
-    "cause": "Stretched chains or leaking cylinder",
+    "cause": "Stretched chains or cylinder leak",
     "repair": "Replace chains, rebuild cylinder",
     "severity": "Critical",
     "image": "/assets/images/forklift-hydraulic.svg"
@@ -193,9 +193,9 @@
     "machine": "Forklift",
     "system": "Brakes",
     "fault": "Poor braking",
-    "symptoms": "Long stopping distance, spongy pedal",
-    "cause": "Worn pads, air in lines",
-    "repair": "Bleed brakes, replace pads",
+    "symptoms": "Spongy pedal",
+    "cause": "Air in lines or worn pads",
+    "repair": "Bleed lines, replace pads",
     "severity": "Critical",
     "image": "/assets/images/forklift-hydraulic.svg"
   },
@@ -203,29 +203,29 @@
     "machine": "Forklift",
     "system": "Drive",
     "fault": "No forward but reverse ok",
-    "symptoms": "Moves only in reverse",
-    "cause": "Directional solenoid or clutch wear",
-    "repair": "Test/replace solenoid, inspect clutch",
+    "symptoms": "Only moves in reverse",
+    "cause": "Directional solenoid fault",
+    "repair": "Test/replace solenoid",
     "severity": "Major",
-    "image": "/assets/images/forklift-hydraulic.svg"
+    "image": "/assets/images/icon-transmission.svg"
   },
   {
     "machine": "Forklift",
     "system": "Battery",
-    "fault": "Battery won't hold charge",
-    "symptoms": "Dies quickly after charge",
-    "cause": "Old battery or bad charger",
-    "repair": "Load-test battery, replace if needed",
+    "fault": "Battery won't charge",
+    "symptoms": "Won't hold charge",
+    "cause": "Old battery or charger fault",
+    "repair": "Load test, replace battery",
     "severity": "Major",
     "image": "/assets/images/forklift-hydraulic.svg"
   },
   {
     "machine": "Forklift",
     "system": "Operator Error",
-    "fault": "Machine tipping during load",
-    "symptoms": "Front wheels lift, unstable",
-    "cause": "Overloading, mast raised while moving",
-    "repair": "Lower load, retrain operator",
+    "fault": "Tipping during load",
+    "symptoms": "Machine unstable when moving",
+    "cause": "Overloading, poor technique",
+    "repair": "Retrain operator, follow load chart",
     "severity": "Critical",
     "image": "/assets/images/forklift-hydraulic.svg"
   },
@@ -233,9 +233,9 @@
     "machine": "Forklift",
     "system": "Hydraulic",
     "fault": "Cylinder leak",
-    "symptoms": "Oil puddle under machine, slow lift",
-    "cause": "Worn seals, damaged cylinder",
-    "repair": "Replace seals or cylinder, check relief valve",
+    "symptoms": "Slow lift, oil puddle",
+    "cause": "Worn seals",
+    "repair": "Replace seals, test relief",
     "severity": "Major",
     "image": "/assets/images/forklift-hydraulic.svg"
   }

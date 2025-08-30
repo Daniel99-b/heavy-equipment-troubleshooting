@@ -1,1 +1,1 @@
-export default function SearchBar({query,setQuery}){return (<div className="mb-6"><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search faults, machines or symptoms..." className="w-full p-3 rounded-xl shadow-md border focus:outline-none focus:ring-2 focus:ring-indigo-300" /></div>);}
+export default function SearchBar({query,setQuery}){return (<input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search by fault, symptom or cause..." className="w-full p-3 rounded-xl border focus:outline-none" />);}
