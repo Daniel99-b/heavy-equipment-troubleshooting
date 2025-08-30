@@ -1,14 +1,3 @@
-export default function Navbar(){
-  return (
-    <header className="bg-white border-b">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-xl font-bold text-slate-800">HeavyFix</div>
-        <nav className="hidden md:flex gap-6 text-slate-600">
-          <a href="/" className="hover:text-slate-900">Home</a>
-          <a href="/" className="hover:text-slate-900">Troubleshooting</a>
-          <a href="/" className="hover:text-slate-900">Resources</a>
-        </nav>
-      </div>
-    </header>
-  );
-}
+import { Link } from 'react-router-dom';
+export default function Navbar(){const scrollTo=(id)=>{const el=document.getElementById(id); if(el) el.scrollIntoView({behavior:'smooth', block:'start'});};
+return (<header className="sticky top-0 bg-white z-50 shadow-sm"><div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between"><div className="font-bold text-lg">HeavyFix</div><nav className="space-x-6 hidden md:block text-slate-700"><button onClick={()=>scrollTo('hero')} className="hover:underline">Home</button><button onClick={()=>scrollTo('faults')} className="hover:underline">Faults</button><button onClick={()=>scrollTo('machines')} className="hover:underline">Machines</button><button onClick={()=>scrollTo('about')} className="hover:underline">About</button></nav></div></header>); }

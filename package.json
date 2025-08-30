@@ -1,5 +1,5 @@
 {
-  "name": "heavyfix-v3-light",
+  "name": "heavyfix-v4",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",

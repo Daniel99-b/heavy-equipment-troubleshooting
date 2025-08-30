@@ -1,46 +1,12 @@
-import { useMemo, useState } from 'react';
-import Navbar from '../components/Navbar.jsx';
-import Hero from '../components/Hero.jsx';
-import Filters from '../components/Filters.jsx';
-import FaultGrid from '../components/FaultGrid.jsx';
-import data from '../data.json';
+import { useMemo, useState } from 'react'; import Navbar from '../components/Navbar.jsx'; import Hero from '../components/Hero.jsx'; import Filters from '../components/Filters.jsx'; import FaultGrid from '../components/FaultGrid.jsx'; import MachinesOverview from '../components/MachinesOverview.jsx'; import Footer from '../components/Footer.jsx'; import data from '../data/data.json';
 
-export default function Home(){
-  const [search,setSearch] = useState('');
-  const [machine,setMachine] = useState('');
-  const [system,setSystem] = useState('');
-  const [severity,setSeverity] = useState('');
-
-  const filtered = useMemo(()=>{
-    return data.filter(f=>{
-      const q = search.toLowerCase();
-      const matchesSearch = !q || (f.title.toLowerCase().includes(q) || (Array.isArray(f.symptoms)? f.symptoms.join(' ').toLowerCase().includes(q) : (f.symptoms||'').toLowerCase().includes(q)) || (Array.isArray(f.causes)? f.causes.join(' ').toLowerCase().includes(q) : (f.causes||'').toLowerCase().includes(q)));
-      const matchesMachine = !machine || f.machine===machine;
-      const matchesSystem = !system || f.system===system;
-      const matchesSeverity = !severity || f.severity===severity;
-      return matchesSearch && matchesMachine && matchesSystem && matchesSeverity;
-    });
-  },[search,machine,system,severity]);
-
-  return (
-    <div>
-      <Navbar />
-      <Hero />
-      <div className="px-6">
-        <div className="max-w-7xl mx-auto -mt-10">
-          <Filters search={search} setSearch={setSearch} machine={machine} setMachine={setMachine} system={system} setSystem={setSystem} severity={severity} setSeverity={setSeverity} />
-        </div>
-        <section id="library" className="max-w-7xl mx-auto py-8">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-2xl font-bold">Troubleshooting Library</h2>
-            <div className="text-sm text-slate-500">Results: <span className="font-semibold">{filtered.length}</span></div>
-          </div>
-          <FaultGrid items={filtered} />
-        </section>
-      </div>
-      <footer className="mt-12 border-t bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-600">© {new Date().getFullYear()} HeavyFix — Troubleshooting guides. Contact: info@example.com</div>
-      </footer>
-    </div>
-  );
+function TabsUI({tab, setTab, data}){
+  const machines = ['All','Excavator','Bulldozer','Wheel Loader','Forklift'];
+  return (<div className='max-w-6xl mx-auto px-6 mt-6'><div className='flex gap-3 mb-4'>{machines.map(m=>(<button key={m} data-machine={m} onClick={()=>setTab(m)} className={`px-4 py-2 rounded-xl ${tab===m?'bg-blue-600 text-white':'bg-white border'}`}>{m}</button>))}</div><div className=''> </div></div>);
 }
+
+export default function Home(){ const [search,setSearch]=useState(''); const [machine,setMachine]=useState('All'); const [system,setSystem]=useState('All'); const [severity,setSeverity]=useState('All'); const [tab,setTab]=useState('All');
+
+  const filtered = useMemo(()=> data.filter(f=>{ const q=search.toLowerCase(); const matchesSearch = !q || (f.title.toLowerCase().includes(q) || (Array.isArray(f.symptoms)? f.symptoms.join(' ').toLowerCase().includes(q) : (f.symptoms||'').toLowerCase().includes(q)) || (Array.isArray(f.causes)? f.causes.join(' ').toLowerCase().includes(q) : (f.causes||'').toLowerCase().includes(q))); const matchesMachine = (machine==='All')? true : f.machine===machine; const matchesSystem = (system==='All')? true : f.system===system; const matchesSeverity = (severity==='All')? true : f.severity===severity; const matchesTab = (tab==='All')? true : f.machine===tab; return matchesSearch && matchesMachine && matchesSystem && matchesSeverity && matchesTab; }),[search,machine,system,severity,tab]);
+
+  return (<div><Navbar/><Hero/><div className='max-w-7xl mx-auto -mt-10 px-6'><div className='bg-white rounded-2xl p-4 md:p-6 card'><div className='grid grid-cols-1 md:grid-cols-12 gap-3'><input className='md:col-span-6 p-3 border rounded-xl' value={search} onChange={e=>setSearch(e.target.value)} placeholder='Search faults, symptoms or causes...'/><select value={machine} onChange={e=>setMachine(e.target.value)} className='md:col-span-2 p-3 border rounded-xl'><option>All</option><option>Excavator</option><option>Wheel Loader</option><option>Bulldozer</option><option>Forklift</option></select><select value={system} onChange={e=>setSystem(e.target.value)} className='md:col-span-2 p-3 border rounded-xl'><option>All</option><option>Engine</option><option>Hydraulic</option><option>Electrical</option><option>Transmission</option></select><select value={severity} onChange={e=>setSeverity(e.target.value)} className='md:col-span-2 p-3 border rounded-xl'><option>All</option><option>Critical</option><option>High</option><option>Medium</option><option>Low</option></select></div></div></div><div id='faults' className='max-w-6xl mx-auto px-6 mt-6'><div className='flex gap-3 mb-4'><button onClick={()=>setTab('All')} className={`px-4 py-2 rounded-xl ${tab==='All'?'bg-blue-600 text-white':'bg-white border'}`}>All</button><button onClick={()=>setTab('Excavator')} className={`px-4 py-2 rounded-xl ${tab==='Excavator'?'bg-blue-600 text-white':'bg-white border'}`}>Excavator</button><button onClick={()=>setTab('Bulldozer')} className={`px-4 py-2 rounded-xl ${tab==='Bulldozer'?'bg-blue-600 text-white':'bg-white border'}`}>Bulldozer</button><button onClick={()=>setTab('Wheel Loader')} className={`px-4 py-2 rounded-xl ${tab==='Wheel Loader'?'bg-blue-600 text-white':'bg-white border'}`}>Wheel Loader</button><button onClick={()=>setTab('Forklift')} className={`px-4 py-2 rounded-xl ${tab==='Forklift'?'bg-blue-600 text-white':'bg-white border'}`}>Forklift</button></div><div className='mb-6'><div className='text-sm text-slate-600'>Showing <strong>{filtered.length}</strong> results</div></div><div className='max-w-6xl mx-auto px-6'><div className=''><FaultGrid items={filtered} /></div></div></div><MachinesOverview/><Footer/></div>); }
