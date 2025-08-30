@@ -1,5 +1,5 @@
 {
-  "name": "heavy-equipment-troubleshooting-v3",
+  "name": "heavyfix-v3-light",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -11,13 +11,13 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "framer-motion": "^10.12.16"
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
     "vite": "^5.2.0",
-    "tailwindcss": "^3.3.2",
-    "postcss": "^8.4.21",
-    "autoprefixer": "^10.4.14"
+    "tailwindcss": "^3.4.4",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
   }
 }

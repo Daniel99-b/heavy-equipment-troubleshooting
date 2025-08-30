@@ -1,1 +1,9 @@
-import FaultCard from './FaultCard.jsx';export default function FaultGrid({items}){if(!items.length) return <p className='text-gray-500'>No results found.</p>;return (<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>{items.map((it,i)=> <FaultCard key={i} item={it} />)}</div>);}
+import FaultCard from './FaultCard.jsx';
+export default function FaultGrid({items}){
+  if(!items.length) return <p className="text-center text-slate-500">No results found.</p>;
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {items.map(f=> <FaultCard key={f.id} fault={f} />)}
+    </div>
+  );
+}
