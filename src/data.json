@@ -7,7 +7,7 @@
     "cause": "Clogged radiator, low coolant",
     "repair": "Flush radiator, refill coolant",
     "severity": "Critical",
-    "image": "/assets/images/hero-bg.svg"
+    "image": "/assets/images/hero-bg.webp"
   },
   {
     "machine": "Wheel Loader",
@@ -17,7 +17,7 @@
     "cause": "Low hydraulic oil, clogged filter",
     "repair": "Top up oil, replace filter",
     "severity": "Major",
-    "image": "/assets/images/icon-hydraulic.svg"
+    "image": "/assets/images/icon-hydraulic.webp"
   },
   {
     "machine": "Wheel Loader",
@@ -27,7 +27,7 @@
     "cause": "Worn clutch packs",
     "repair": "Inspect/replace clutch packs",
     "severity": "Major",
-    "image": "/assets/images/icon-transmission.svg"
+    "image": "/assets/images/icon-transmission.webp"
   },
   {
     "machine": "Wheel Loader",
@@ -37,7 +37,7 @@
     "cause": "Dead battery or corroded terminals",
     "repair": "Charge/replace battery, clean terminals",
     "severity": "Critical",
-    "image": "/assets/images/icon-electrical.svg"
+    "image": "/assets/images/icon-electrical.webp"
   },
   {
     "machine": "Wheel Loader",
@@ -47,7 +47,7 @@
     "cause": "Puncture or internal break",
     "repair": "Replace tire",
     "severity": "Minor",
-    "image": "/assets/images/loader-thumb.svg"
+    "image": "/assets/images/loader-thumb.webp"
   },
   {
     "machine": "Wheel Loader",
@@ -57,7 +57,7 @@
     "cause": "Dirty core",
     "repair": "Clean core, fit guard",
     "severity": "Major",
-    "image": "/assets/images/hero-bg.svg"
+    "image": "/assets/images/hero-bg.webp"
   },
   {
     "machine": "Bulldozer",
@@ -67,7 +67,7 @@
     "cause": "Head gasket leak",
     "repair": "Repair/replace head gasket",
     "severity": "Critical",
-    "image": "/assets/images/hero-bg.svg"
+    "image": "/assets/images/hero-bg.webp"
   },
   {
     "machine": "Bulldozer",
@@ -77,7 +77,7 @@
     "cause": "Control valve fault",
     "repair": "Test/replace valve, bleed system",
     "severity": "Major",
-    "image": "/assets/images/icon-hydraulic.svg"
+    "image": "/assets/images/icon-hydraulic.webp"
   },
   {
     "machine": "Bulldozer",
@@ -87,7 +87,7 @@
     "cause": "Loose tension",
     "repair": "Adjust tension, inspect rollers",
     "severity": "Major",
-    "image": "/assets/images/icon-transmission.svg"
+    "image": "/assets/images/icon-transmission.webp"
   },
   {
     "machine": "Bulldozer",
@@ -97,7 +97,7 @@
     "cause": "Core puncture or corrosion",
     "repair": "Replace radiator, pressure test",
     "severity": "Critical",
-    "image": "/assets/images/hero-bg.svg"
+    "image": "/assets/images/hero-bg.webp"
   },
   {
     "machine": "Bulldozer",
@@ -107,7 +107,7 @@
     "cause": "Faulty solenoid",
     "repair": "Test/replace solenoid, clean terminals",
     "severity": "Major",
-    "image": "/assets/images/icon-electrical.svg"
+    "image": "/assets/images/icon-electrical.webp"
   },
   {
     "machine": "Bulldozer",
@@ -117,7 +117,7 @@
     "cause": "Dirty fuel",
     "repair": "Replace filters, clean tank",
     "severity": "Major",
-    "image": "/assets/images/loader-thumb.svg"
+    "image": "/assets/images/loader-thumb.webp"
   },
   {
     "machine": "Excavator",
@@ -127,7 +127,7 @@
     "cause": "Cylinder seal wear",
     "repair": "Rebuild cylinder",
     "severity": "Critical",
-    "image": "/assets/images/excavator-boom.svg"
+    "image": "/assets/images/excavator-boom.webp"
   },
   {
     "machine": "Excavator",
@@ -137,7 +137,7 @@
     "cause": "Restricted air filter",
     "repair": "Replace air elements",
     "severity": "Major",
-    "image": "/assets/images/hero-bg.svg"
+    "image": "/assets/images/hero-bg.webp"
   },
   {
     "machine": "Excavator",
@@ -147,7 +147,7 @@
     "cause": "Travel motor issue",
     "repair": "Test & repair motor",
     "severity": "Major",
-    "image": "/assets/images/icon-transmission.svg"
+    "image": "/assets/images/icon-transmission.webp"
   },
   {
     "machine": "Excavator",
@@ -157,7 +157,7 @@
     "cause": "Worn latch",
     "repair": "Replace latch, test hydraulic",
     "severity": "Critical",
-    "image": "/assets/images/icon-hydraulic.svg"
+    "image": "/assets/images/icon-hydraulic.webp"
   },
   {
     "machine": "Excavator",
@@ -167,7 +167,7 @@
     "cause": "Clogged pilot filter",
     "repair": "Replace pilot filter, flush lines",
     "severity": "Major",
-    "image": "/assets/images/excavator-boom.svg"
+    "image": "/assets/images/excavator-boom.webp"
   },
   {
     "machine": "Excavator",
@@ -177,7 +177,7 @@
     "cause": "Clogged radiator or fan failure",
     "repair": "Clean cores, check fan",
     "severity": "Critical",
-    "image": "/assets/images/hero-bg.svg"
+    "image": "/assets/images/hero-bg.webp"
   },
   {
     "machine": "Forklift",
@@ -187,7 +187,7 @@
     "cause": "Stretched chains or cylinder leak",
     "repair": "Replace chains, rebuild cylinder",
     "severity": "Critical",
-    "image": "/assets/images/forklift-hydraulic.svg"
+    "image": "/assets/images/forklift-hydraulic.webp"
   },
   {
     "machine": "Forklift",
@@ -197,7 +197,7 @@
     "cause": "Air in lines or worn pads",
     "repair": "Bleed lines, replace pads",
     "severity": "Critical",
-    "image": "/assets/images/forklift-hydraulic.svg"
+    "image": "/assets/images/forklift-hydraulic.webp"
   },
   {
     "machine": "Forklift",
@@ -207,7 +207,7 @@
     "cause": "Directional solenoid fault",
     "repair": "Test/replace solenoid",
     "severity": "Major",
-    "image": "/assets/images/icon-transmission.svg"
+    "image": "/assets/images/icon-transmission.webp"
   },
   {
     "machine": "Forklift",
@@ -217,7 +217,7 @@
     "cause": "Old battery or charger fault",
     "repair": "Load test, replace battery",
     "severity": "Major",
-    "image": "/assets/images/forklift-hydraulic.svg"
+    "image": "/assets/images/forklift-hydraulic.webp"
   },
   {
     "machine": "Forklift",
@@ -227,7 +227,7 @@
     "cause": "Overloading, poor technique",
     "repair": "Retrain operator, follow load chart",
     "severity": "Critical",
-    "image": "/assets/images/forklift-hydraulic.svg"
+    "image": "/assets/images/forklift-hydraulic.webp"
   },
   {
     "machine": "Forklift",
@@ -237,6 +237,6 @@
     "cause": "Worn seals",
     "repair": "Replace seals, test relief",
     "severity": "Major",
-    "image": "/assets/images/forklift-hydraulic.svg"
+    "image": "/assets/images/forklift-hydraulic.webp"
   }
 ]
