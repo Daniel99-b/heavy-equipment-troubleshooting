@@ -1,1 +1,25 @@
-<!doctype html><html lang='en'><head><meta charset='utf-8'/><meta name='viewport' content='width=device-width,initial-scale=1.0'/><title>HeavyFix V4</title></head><body><div id='root'></div><script type='module' src='/src/main.jsx'></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>HeavyFix — Heavy Equipment Troubleshooting</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" href="/icons/icon-192x192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="HeavyFix">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+</head>
+<body class="bg-slate-50">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+  if('serviceWorker' in navigator){
+    window.addEventListener('load',()=>{
+      navigator.serviceWorker.register('/service-worker.js').catch(console.warn);
+    });
+  }
+  </script>
+</body>
+</html>

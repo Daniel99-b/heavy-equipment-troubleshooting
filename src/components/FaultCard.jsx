@@ -1,1 +1,16 @@
-import { Link } from 'react-router-dom'; const badge={Critical:'bg-red-100 text-red-700',High:'bg-orange-100 text-orange-700',Medium:'bg-yellow-100 text-yellow-700',Low:'bg-green-100 text-green-700'}; export default function FaultCard({item}){return (<Link to={'/fault/'+item.id} className='card block overflow-hidden'><div className='h-44 overflow-hidden'><img src={item.image} alt={item.title} onError={e=>e.currentTarget.src='/assets/images/hero.webp'} className='w-full h-full object-cover'/></div><div className='p-4'><div className='flex justify-between'><h3 className='font-semibold'>{item.title}</h3><span className={`badge ${badge[item.severity]||'bg-slate-100 text-slate-700'}`}>{item.severity}</span></div><p className='text-sm text-slate-600 mt-1'>{item.machine} • {item.system}</p></div></Link>);}
+import { Link } from 'react-router-dom';
+const badge={Critical:'bg-red-100 text-red-700',High:'bg-orange-100 text-orange-700',Medium:'bg-yellow-100 text-yellow-700',Low:'bg-green-100 text-green-700'};
+export default function FaultCard({item}){
+  return (
+    <Link to={'/fault/'+item.id} className="card block">
+      <div className="h-40 overflow-hidden"><img src={item.image} alt={item.title} onError={e=>e.currentTarget.src='/assets/images/hero.webp'} className="w-full h-full object-cover"/></div>
+      <div className="p-4">
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="font-semibold">{item.title}</h3>
+          <span className={`badge ${badge[item.severity]||'bg-slate-100 text-slate-700'}`}>{item.severity}</span>
+        </div>
+        <p className="text-sm text-slate-600 mt-1">{item.machine} • {item.system}</p>
+      </div>
+    </Link>
+  )
+}

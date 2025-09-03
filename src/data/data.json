@@ -1,893 +1,3002 @@
 [
   {
     "id": 1,
-    "title": "Hydraulic pump overheating",
-    "machine": "Excavator",
-    "system": "Hydraulic",
-    "severity": "High",
-    "symptoms": [
-      "Loss of digging power",
-      "Hydraulic temp alarm"
-    ],
-    "causes": [
-      "Low oil",
-      "Clogged filter"
-    ],
-    "repair": [
-      "Top up oil",
-      "Replace filter"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 2,
-    "title": "Boom drift",
-    "machine": "Excavator",
-    "system": "Hydraulic",
-    "severity": "Medium",
-    "symptoms": [
-      "Boom lowers slowly"
-    ],
-    "causes": [
-      "Seal leakage"
-    ],
-    "repair": [
-      "Rebuild cylinder"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 3,
-    "title": "Black smoke under load",
+    "title": "Engine overheating under load",
     "machine": "Excavator",
     "system": "Engine",
     "severity": "Medium",
     "symptoms": [
-      "Black smoke",
-      "Reduced power"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Clogged air filter",
-      "Injector fault"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace filter",
-      "Test injectors"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/excavator.webp"
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 2,
+    "title": "Slow boom lift",
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 3,
+    "title": "Intermittent starter click",
+    "machine": "Excavator",
+    "system": "Electrical",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
   },
   {
     "id": 4,
-    "title": "Pilot control weak",
+    "title": "No travel in high range",
     "machine": "Excavator",
-    "system": "Hydraulic",
-    "severity": "Medium",
+    "system": "Transmission",
+    "severity": "Critical",
     "symptoms": [
-      "Slow joystick response"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Pilot filter clogged"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace pilot filter"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/excavator.webp"
+    "image": "/assets/images/transmission.webp"
   },
   {
     "id": 5,
-    "title": "One track slow",
-    "machine": "Excavator",
-    "system": "Travel",
-    "severity": "High",
-    "symptoms": [
-      "Machine veers"
-    ],
-    "causes": [
-      "Travel motor wear"
-    ],
-    "repair": [
-      "Rebuild travel motor"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 6,
-    "title": "Overheating at idle",
+    "title": "Coolant contamination (oil)",
     "machine": "Excavator",
     "system": "Cooling",
     "severity": "High",
     "symptoms": [
-      "High temp at idle"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Fan clutch failure"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace fan clutch"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/excavator.webp"
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 6,
+    "title": "Hand primer not firming up",
+    "machine": "Excavator",
+    "system": "Fuel",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
   },
   {
     "id": 7,
-    "title": "Engine stalls under load",
-    "machine": "Excavator",
-    "system": "Fuel",
-    "severity": "High",
-    "symptoms": [
-      "Stalls under load"
-    ],
-    "causes": [
-      "Fuel filter clogged"
-    ],
-    "repair": [
-      "Replace filters"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 8,
-    "title": "Swing brake not holding",
-    "machine": "Excavator",
-    "system": "Hydraulic",
-    "severity": "Medium",
-    "symptoms": [
-      "Upper rotates on slope"
-    ],
-    "causes": [
-      "Worn brake discs"
-    ],
-    "repair": [
-      "Replace discs"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 9,
-    "title": "Cab monitor fault codes",
-    "machine": "Excavator",
-    "system": "Electrical",
-    "severity": "Medium",
-    "symptoms": [
-      "Warning icons"
-    ],
-    "causes": [
-      "Sensor or harness"
-    ],
-    "repair": [
-      "Inspect harness"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 10,
-    "title": "Track rollers noisy",
+    "title": "Carrier roller oil leak",
     "machine": "Excavator",
     "system": "Undercarriage",
     "severity": "Low",
     "symptoms": [
-      "Squeal while traveling"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Failed roller bearings"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace rollers"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 11,
-    "title": "Bucket quick coupler fail",
-    "machine": "Excavator",
-    "system": "Attachments",
-    "severity": "Critical",
-    "symptoms": [
-      "Attachment drops"
-    ],
-    "causes": [
-      "Worn latch pins"
-    ],
-    "repair": [
-      "Replace latch kit"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 12,
-    "title": "Starter clicks no crank",
-    "machine": "Excavator",
-    "system": "Electrical",
-    "severity": "High",
-    "symptoms": [
-      "Click on start"
-    ],
-    "causes": [
-      "Weak battery"
-    ],
-    "repair": [
-      "Load test battery"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 13,
-    "title": "Hydraulic oil milky",
-    "machine": "Excavator",
-    "system": "Hydraulic",
-    "severity": "Medium",
-    "symptoms": [
-      "Cloudy oil"
-    ],
-    "causes": [
-      "Water ingress"
-    ],
-    "repair": [
-      "Change oil & breather"
-    ],
-    "image": "/assets/images/excavator.webp"
-  },
-  {
-    "id": 14,
-    "title": "Blade won't lift",
-    "machine": "Bulldozer",
-    "system": "Hydraulic",
-    "severity": "High",
-    "symptoms": [
-      "Blade stuck down"
-    ],
-    "causes": [
-      "Valve stuck"
-    ],
-    "repair": [
-      "Service control valve"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
     "image": "/assets/images/bulldozer.webp"
   },
   {
-    "id": 15,
-    "title": "Track derailing",
-    "machine": "Bulldozer",
-    "system": "Undercarriage",
-    "severity": "High",
+    "id": 8,
+    "title": "ABS sensor fault",
+    "machine": "Excavator",
+    "system": "Braking",
+    "severity": "Medium",
     "symptoms": [
-      "Track walks off"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Loose tension"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Adjust tension"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 9,
+    "title": "Engine overheating under load",
+    "machine": "Excavator",
+    "system": "Engine",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 10,
+    "title": "Slow boom lift",
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 11,
+    "title": "Intermittent starter click",
+    "machine": "Excavator",
+    "system": "Electrical",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 12,
+    "title": "No travel in high range",
+    "machine": "Excavator",
+    "system": "Transmission",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 13,
+    "title": "Coolant contamination (oil)",
+    "machine": "Excavator",
+    "system": "Cooling",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 14,
+    "title": "Hand primer not firming up",
+    "machine": "Excavator",
+    "system": "Fuel",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 15,
+    "title": "Carrier roller oil leak",
+    "machine": "Excavator",
+    "system": "Undercarriage",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
     "image": "/assets/images/bulldozer.webp"
   },
   {
     "id": 16,
-    "title": "White smoke on start",
-    "machine": "Bulldozer",
-    "system": "Engine",
-    "severity": "Critical",
+    "title": "ABS sensor fault",
+    "machine": "Excavator",
+    "system": "Braking",
+    "severity": "Low",
     "symptoms": [
-      "White smoke",
-      "Coolant loss"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Head gasket"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace head gasket"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
     "id": 17,
-    "title": "Radiator leak",
-    "machine": "Bulldozer",
-    "system": "Cooling",
-    "severity": "High",
+    "title": "Engine overheating under load",
+    "machine": "Excavator",
+    "system": "Engine",
+    "severity": "Critical",
     "symptoms": [
-      "Coolant puddle"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Punctured core"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace radiator"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/engine.webp"
   },
   {
     "id": 18,
-    "title": "Starter intermittent",
-    "machine": "Bulldozer",
-    "system": "Electrical",
-    "severity": "Medium",
+    "title": "Slow boom lift",
+    "machine": "Excavator",
+    "system": "Hydraulic",
+    "severity": "Low",
     "symptoms": [
-      "Sometimes won't crank"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Faulty solenoid"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace solenoid"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/hydraulic.webp"
   },
   {
     "id": 19,
-    "title": "Fuel starvation climbing",
-    "machine": "Bulldozer",
-    "system": "Fuel",
-    "severity": "Medium",
+    "title": "Intermittent starter click",
+    "machine": "Excavator",
+    "system": "Electrical",
+    "severity": "High",
     "symptoms": [
-      "Loses power uphill"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Blocked pickup"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Clean strainer"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/electrical.webp"
   },
   {
     "id": 20,
-    "title": "Steering clutch slip",
-    "machine": "Bulldozer",
+    "title": "No travel in high range",
+    "machine": "Excavator",
     "system": "Transmission",
     "severity": "High",
     "symptoms": [
-      "Poor steering"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Worn clutch discs"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace discs"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/transmission.webp"
   },
   {
     "id": 21,
-    "title": "Final drive overheating",
-    "machine": "Bulldozer",
-    "system": "Transmission",
-    "severity": "High",
+    "title": "Coolant contamination (oil)",
+    "machine": "Excavator",
+    "system": "Cooling",
+    "severity": "Critical",
     "symptoms": [
-      "Hot hubs"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Low oil"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Rebuild final drive"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
     "id": 22,
-    "title": "Brake drag",
-    "machine": "Bulldozer",
-    "system": "Brake",
+    "title": "Hand primer not firming up",
+    "machine": "Excavator",
+    "system": "Fuel",
     "severity": "Medium",
     "symptoms": [
-      "Machine slows"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Stuck caliper"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Service caliper"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
     "id": 23,
-    "title": "Dozer vibrates at speed",
-    "machine": "Bulldozer",
-    "system": "Drive",
-    "severity": "Low",
+    "title": "Carrier roller oil leak",
+    "machine": "Excavator",
+    "system": "Undercarriage",
+    "severity": "Critical",
     "symptoms": [
-      "Cab vibration"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Bent driveshaft"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Balance shaft"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
     "image": "/assets/images/bulldozer.webp"
   },
   {
     "id": 24,
-    "title": "Alternator undercharging",
-    "machine": "Bulldozer",
-    "system": "Electrical",
-    "severity": "Medium",
+    "title": "ABS sensor fault",
+    "machine": "Excavator",
+    "system": "Braking",
+    "severity": "Critical",
     "symptoms": [
-      "Battery light on"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Loose belt"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Tension belt"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
     "id": 25,
-    "title": "Exhaust temp high",
-    "machine": "Bulldozer",
+    "title": "Engine overheating under load",
+    "machine": "Excavator",
     "system": "Engine",
-    "severity": "High",
+    "severity": "Medium",
     "symptoms": [
-      "High EGT"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Muffler restriction"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Inspect muffler"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/bulldozer.webp"
+    "image": "/assets/images/engine.webp"
   },
   {
     "id": 26,
-    "title": "Hydraulic oil aeration",
-    "machine": "Bulldozer",
+    "title": "Slow boom lift",
+    "machine": "Excavator",
     "system": "Hydraulic",
-    "severity": "Medium",
+    "severity": "Low",
     "symptoms": [
-      "Foaming oil"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Loose suction fittings"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Tighten suction"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 27,
+    "title": "Intermittent starter click",
+    "machine": "Excavator",
+    "system": "Electrical",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 28,
+    "title": "No travel in high range",
+    "machine": "Excavator",
+    "system": "Transmission",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 29,
+    "title": "Coolant contamination (oil)",
+    "machine": "Excavator",
+    "system": "Cooling",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 30,
+    "title": "Hand primer not firming up",
+    "machine": "Excavator",
+    "system": "Fuel",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 31,
+    "title": "Engine overheating under load",
+    "machine": "Bulldozer",
+    "system": "Engine",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 32,
+    "title": "Slow boom lift",
+    "machine": "Bulldozer",
+    "system": "Hydraulic",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 33,
+    "title": "Intermittent starter click",
+    "machine": "Bulldozer",
+    "system": "Electrical",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 34,
+    "title": "No travel in high range",
+    "machine": "Bulldozer",
+    "system": "Transmission",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 35,
+    "title": "Coolant contamination (oil)",
+    "machine": "Bulldozer",
+    "system": "Cooling",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 36,
+    "title": "Hand primer not firming up",
+    "machine": "Bulldozer",
+    "system": "Fuel",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 37,
+    "title": "Carrier roller oil leak",
+    "machine": "Bulldozer",
+    "system": "Undercarriage",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
     "image": "/assets/images/bulldozer.webp"
   },
   {
-    "id": 27,
-    "title": "Bucket lifts slowly",
+    "id": 38,
+    "title": "ABS sensor fault",
+    "machine": "Bulldozer",
+    "system": "Braking",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 39,
+    "title": "Engine overheating under load",
+    "machine": "Bulldozer",
+    "system": "Engine",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 40,
+    "title": "Slow boom lift",
+    "machine": "Bulldozer",
+    "system": "Hydraulic",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 41,
+    "title": "Intermittent starter click",
+    "machine": "Bulldozer",
+    "system": "Electrical",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 42,
+    "title": "No travel in high range",
+    "machine": "Bulldozer",
+    "system": "Transmission",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 43,
+    "title": "Coolant contamination (oil)",
+    "machine": "Bulldozer",
+    "system": "Cooling",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 44,
+    "title": "Hand primer not firming up",
+    "machine": "Bulldozer",
+    "system": "Fuel",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 45,
+    "title": "Carrier roller oil leak",
+    "machine": "Bulldozer",
+    "system": "Undercarriage",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/bulldozer.webp"
+  },
+  {
+    "id": 46,
+    "title": "ABS sensor fault",
+    "machine": "Bulldozer",
+    "system": "Braking",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 47,
+    "title": "Engine overheating under load",
+    "machine": "Bulldozer",
+    "system": "Engine",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 48,
+    "title": "Slow boom lift",
+    "machine": "Bulldozer",
+    "system": "Hydraulic",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 49,
+    "title": "Intermittent starter click",
+    "machine": "Bulldozer",
+    "system": "Electrical",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 50,
+    "title": "No travel in high range",
+    "machine": "Bulldozer",
+    "system": "Transmission",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 51,
+    "title": "Coolant contamination (oil)",
+    "machine": "Bulldozer",
+    "system": "Cooling",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 52,
+    "title": "Hand primer not firming up",
+    "machine": "Bulldozer",
+    "system": "Fuel",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 53,
+    "title": "Carrier roller oil leak",
+    "machine": "Bulldozer",
+    "system": "Undercarriage",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/bulldozer.webp"
+  },
+  {
+    "id": 54,
+    "title": "ABS sensor fault",
+    "machine": "Bulldozer",
+    "system": "Braking",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 55,
+    "title": "Engine overheating under load",
+    "machine": "Bulldozer",
+    "system": "Engine",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 56,
+    "title": "Slow boom lift",
+    "machine": "Bulldozer",
+    "system": "Hydraulic",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 57,
+    "title": "Intermittent starter click",
+    "machine": "Bulldozer",
+    "system": "Electrical",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 58,
+    "title": "No travel in high range",
+    "machine": "Bulldozer",
+    "system": "Transmission",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 59,
+    "title": "Coolant contamination (oil)",
+    "machine": "Bulldozer",
+    "system": "Cooling",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 60,
+    "title": "Hand primer not firming up",
+    "machine": "Bulldozer",
+    "system": "Fuel",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 61,
+    "title": "Engine overheating under load",
+    "machine": "Wheel Loader",
+    "system": "Engine",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 62,
+    "title": "Slow boom lift",
     "machine": "Wheel Loader",
     "system": "Hydraulic",
     "severity": "Medium",
     "symptoms": [
-      "Slow raise"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Low hydraulic oil"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Top up oil"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/hydraulic.webp"
   },
   {
-    "id": 28,
-    "title": "Engine overheating",
+    "id": 63,
+    "title": "Intermittent starter click",
+    "machine": "Wheel Loader",
+    "system": "Electrical",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 64,
+    "title": "No travel in high range",
+    "machine": "Wheel Loader",
+    "system": "Transmission",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 65,
+    "title": "Coolant contamination (oil)",
+    "machine": "Wheel Loader",
+    "system": "Cooling",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 66,
+    "title": "Hand primer not firming up",
+    "machine": "Wheel Loader",
+    "system": "Fuel",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 67,
+    "title": "Brake fluid leak at caliper",
+    "machine": "Wheel Loader",
+    "system": "Braking",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 68,
+    "title": "Abnormal knocking noise",
     "machine": "Wheel Loader",
     "system": "Engine",
     "severity": "Critical",
     "symptoms": [
-      "Temp alarm"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Clogged core"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Clean radiator"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/engine.webp"
   },
   {
-    "id": 29,
-    "title": "Transmission slipping",
+    "id": 69,
+    "title": "Hydraulic pump overheating",
+    "machine": "Wheel Loader",
+    "system": "Hydraulic",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 70,
+    "title": "Alternator not charging",
+    "machine": "Wheel Loader",
+    "system": "Electrical",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 71,
+    "title": "Delayed engagement from neutral",
+    "machine": "Wheel Loader",
+    "system": "Transmission",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 72,
+    "title": "Thermostat stuck closed",
+    "machine": "Wheel Loader",
+    "system": "Cooling",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 73,
+    "title": "Low rail pressure code",
+    "machine": "Wheel Loader",
+    "system": "Fuel",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 74,
+    "title": "Uneven braking left/right",
+    "machine": "Wheel Loader",
+    "system": "Braking",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 75,
+    "title": "Engine stalls at idle",
+    "machine": "Wheel Loader",
+    "system": "Engine",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 76,
+    "title": "Relief valve chatter",
+    "machine": "Wheel Loader",
+    "system": "Hydraulic",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 77,
+    "title": "Battery drains overnight",
+    "machine": "Wheel Loader",
+    "system": "Electrical",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 78,
+    "title": "Harsh shifting into reverse",
     "machine": "Wheel Loader",
     "system": "Transmission",
     "severity": "High",
     "symptoms": [
-      "High RPM low travel"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Worn clutch packs"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Overhaul transmission"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/transmission.webp"
   },
   {
-    "id": 30,
-    "title": "No crank",
+    "id": 79,
+    "title": "Clogged radiator core",
     "machine": "Wheel Loader",
-    "system": "Electrical",
+    "system": "Cooling",
     "severity": "High",
     "symptoms": [
-      "Clicking only"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Flat battery"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace battery"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 31,
-    "title": "Parking brake won't release",
-    "machine": "Wheel Loader",
-    "system": "Brake",
-    "severity": "Medium",
-    "symptoms": [
-      "Brake lamp on"
-    ],
-    "causes": [
-      "Stuck parking valve"
-    ],
-    "repair": [
-      "Service valve"
-    ],
-    "image": "/assets/images/wheel-loader.webp"
-  },
-  {
-    "id": 32,
-    "title": "Articulation joint clunk",
-    "machine": "Wheel Loader",
-    "system": "Drive",
-    "severity": "Low",
-    "symptoms": [
-      "Clunk when steering"
-    ],
-    "causes": [
-      "Worn pins"
-    ],
-    "repair": [
-      "Replace pins"
-    ],
-    "image": "/assets/images/wheel-loader.webp"
-  },
-  {
-    "id": 33,
-    "title": "Fuel contamination",
+    "id": 80,
+    "title": "Fuel contamination (water)",
     "machine": "Wheel Loader",
     "system": "Fuel",
-    "severity": "Medium",
-    "symptoms": [
-      "Rough idle"
-    ],
-    "causes": [
-      "Water in fuel"
-    ],
-    "repair": [
-      "Drain separator"
-    ],
-    "image": "/assets/images/wheel-loader.webp"
-  },
-  {
-    "id": 34,
-    "title": "Tire chunking",
-    "machine": "Wheel Loader",
-    "system": "Tires",
     "severity": "Low",
     "symptoms": [
-      "Chunking on road"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Wrong tire"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Fit correct tire"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 35,
-    "title": "Aux hydraulics hot",
+    "id": 81,
+    "title": "Brake overheating on downhills",
+    "machine": "Wheel Loader",
+    "system": "Braking",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 82,
+    "title": "Loss of power climbing",
+    "machine": "Wheel Loader",
+    "system": "Engine",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 83,
+    "title": "Hydraulic oil foaming",
     "machine": "Wheel Loader",
     "system": "Hydraulic",
-    "severity": "High",
+    "severity": "Critical",
     "symptoms": [
-      "High temp with attachments"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Relief stuck"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Service relief valve"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/hydraulic.webp"
   },
   {
-    "id": 36,
-    "title": "Alternator overcharging",
+    "id": 84,
+    "title": "Sensor reference voltage low",
     "machine": "Wheel Loader",
     "system": "Electrical",
-    "severity": "Medium",
+    "severity": "Critical",
     "symptoms": [
-      "Battery boiling"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Failed regulator"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace regulator"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/electrical.webp"
   },
   {
-    "id": 37,
-    "title": "A/C not cooling",
+    "id": 85,
+    "title": "Transmission slipping in 2nd",
     "machine": "Wheel Loader",
+    "system": "Transmission",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 86,
+    "title": "Coolant level dropping slowly",
+    "machine": "Wheel Loader",
+    "system": "Cooling",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 87,
+    "title": "Injector nailing noise",
+    "machine": "Wheel Loader",
+    "system": "Fuel",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 88,
+    "title": "Parking brake won\u2019t release",
+    "machine": "Wheel Loader",
+    "system": "Braking",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 89,
+    "title": "Excessive white smoke on startup",
+    "machine": "Wheel Loader",
+    "system": "Engine",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 90,
+    "title": "Auxiliary circuit weak",
+    "machine": "Wheel Loader",
+    "system": "Hydraulic",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 91,
+    "title": "Engine overheating under load",
+    "machine": "Forklift",
+    "system": "Engine",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 92,
+    "title": "Slow boom lift",
+    "machine": "Forklift",
+    "system": "Hydraulic",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 93,
+    "title": "Intermittent starter click",
+    "machine": "Forklift",
+    "system": "Electrical",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 94,
+    "title": "No travel in high range",
+    "machine": "Forklift",
+    "system": "Transmission",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 95,
+    "title": "Coolant contamination (oil)",
+    "machine": "Forklift",
     "system": "Cooling",
     "severity": "Low",
     "symptoms": [
-      "Warm cab"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Low refrigerant"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Recharge A/C"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 38,
-    "title": "Brake fade downhill",
-    "machine": "Wheel Loader",
-    "system": "Brake",
+    "id": 96,
+    "title": "Hand primer not firming up",
+    "machine": "Forklift",
+    "system": "Fuel",
     "severity": "High",
     "symptoms": [
-      "Long stopping distance"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Overheated linings"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace linings"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/wheel-loader.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 39,
-    "title": "Loader arms creep down",
-    "machine": "Wheel Loader",
-    "system": "Hydraulic",
-    "severity": "Medium",
-    "symptoms": [
-      "Arms drop"
-    ],
-    "causes": [
-      "Seal leak"
-    ],
-    "repair": [
-      "Replace seals"
-    ],
-    "image": "/assets/images/wheel-loader.webp"
-  },
-  {
-    "id": 40,
-    "title": "Mast won't lift",
+    "id": 97,
+    "title": "Tilt cylinder leaking",
     "machine": "Forklift",
     "system": "Mast/Lift",
-    "severity": "Critical",
+    "severity": "High",
     "symptoms": [
-      "No lift"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Low hydraulic oil"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Top up oil"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
     "image": "/assets/images/forklift.webp"
   },
   {
-    "id": 41,
+    "id": 98,
+    "title": "Wheel hub play",
+    "machine": "Forklift",
+    "system": "Drive",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/wheel-loader.webp"
+  },
+  {
+    "id": 99,
+    "title": "Spongy brake pedal",
+    "machine": "Forklift",
+    "system": "Braking",
+    "severity": "High",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 100,
+    "title": "Hard starting when hot",
+    "machine": "Forklift",
+    "system": "Engine",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 101,
+    "title": "Bucket drifts when parked",
+    "machine": "Forklift",
+    "system": "Hydraulic",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 102,
+    "title": "Warning lights flicker",
+    "machine": "Forklift",
+    "system": "Electrical",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 103,
+    "title": "Overheat lamp on slope",
+    "machine": "Forklift",
+    "system": "Transmission",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 104,
+    "title": "Hoses collapse at RPM",
+    "machine": "Forklift",
+    "system": "Cooling",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 105,
+    "title": "Fuel tank vent blocked",
+    "machine": "Forklift",
+    "system": "Fuel",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 106,
+    "title": "Carriage rollers flat-spotted",
+    "machine": "Forklift",
+    "system": "Mast/Lift",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/forklift.webp"
+  },
+  {
+    "id": 107,
     "title": "Forklift tips when turning",
     "machine": "Forklift",
     "system": "Drive",
-    "severity": "Critical",
-    "symptoms": [
-      "Unstable with load"
-    ],
-    "causes": [
-      "Overloading"
-    ],
-    "repair": [
-      "Follow load chart"
-    ],
-    "image": "/assets/images/forklift.webp"
-  },
-  {
-    "id": 42,
-    "title": "No forward reverse ok",
-    "machine": "Forklift",
-    "system": "Transmission",
     "severity": "High",
     "symptoms": [
-      "Only reverse"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Directional solenoid"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace solenoid"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/wheel-loader.webp"
   },
   {
-    "id": 43,
-    "title": "Poor braking",
+    "id": 108,
+    "title": "Brake warning buzzer on",
     "machine": "Forklift",
-    "system": "Brake",
-    "severity": "High",
-    "symptoms": [
-      "Spongy pedal"
-    ],
-    "causes": [
-      "Air in lines"
-    ],
-    "repair": [
-      "Bleed system"
-    ],
-    "image": "/assets/images/forklift.webp"
-  },
-  {
-    "id": 44,
-    "title": "Battery won't charge",
-    "machine": "Forklift",
-    "system": "Battery",
+    "system": "Braking",
     "severity": "Medium",
     "symptoms": [
-      "Short runtime"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Aged battery"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Load test battery"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 45,
-    "title": "Engine stalls at idle (LPG)",
+    "id": 109,
+    "title": "Rough idle and black smoke",
+    "machine": "Forklift",
+    "system": "Engine",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 110,
+    "title": "Erratic joystick response",
+    "machine": "Forklift",
+    "system": "Hydraulic",
+    "severity": "Medium",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hydraulic.webp"
+  },
+  {
+    "id": 111,
+    "title": "CAN communication fault",
+    "machine": "Forklift",
+    "system": "Electrical",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/electrical.webp"
+  },
+  {
+    "id": 112,
+    "title": "Grinding noise under load",
+    "machine": "Forklift",
+    "system": "Transmission",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/transmission.webp"
+  },
+  {
+    "id": 113,
+    "title": "Air lock after service",
+    "machine": "Forklift",
+    "system": "Cooling",
+    "severity": "Low",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/hero.webp"
+  },
+  {
+    "id": 114,
+    "title": "Leaking return lines",
     "machine": "Forklift",
     "system": "Fuel",
     "severity": "Medium",
     "symptoms": [
-      "Stalls idling"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Regulator torn"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace regulator"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 46,
-    "title": "Tilt function jerky",
+    "id": 115,
+    "title": "Mast won\u2019t lift",
     "machine": "Forklift",
-    "system": "Hydraulic",
-    "severity": "Low",
+    "system": "Mast/Lift",
+    "severity": "Medium",
     "symptoms": [
-      "Jerky tilt"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Contaminated oil"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Change oil"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
     "image": "/assets/images/forklift.webp"
   },
   {
-    "id": 47,
-    "title": "Steering loose",
+    "id": 116,
+    "title": "No drive forward",
     "machine": "Forklift",
     "system": "Drive",
-    "severity": "Medium",
-    "symptoms": [
-      "Excess play"
-    ],
-    "causes": [
-      "Worn kingpins"
-    ],
-    "repair": [
-      "Replace kingpins"
-    ],
-    "image": "/assets/images/forklift.webp"
-  },
-  {
-    "id": 48,
-    "title": "Starter dead lights OK",
-    "machine": "Forklift",
-    "system": "Electrical",
-    "severity": "Medium",
-    "symptoms": [
-      "No click"
-    ],
-    "causes": [
-      "Open start circuit"
-    ],
-    "repair": [
-      "Trace wiring"
-    ],
-    "image": "/assets/images/forklift.webp"
-  },
-  {
-    "id": 49,
-    "title": "Overheating indoor",
-    "machine": "Forklift",
-    "system": "Cooling",
     "severity": "High",
     "symptoms": [
-      "High temp in warehouse"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Clogged fins"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Blow out fins"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/wheel-loader.webp"
   },
   {
-    "id": 50,
-    "title": "Hydraulic cylinder leaking",
+    "id": 117,
+    "title": "Service brakes weak",
     "machine": "Forklift",
-    "system": "Hydraulic",
+    "system": "Braking",
     "severity": "Medium",
     "symptoms": [
-      "Oil on mast"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Rod seal worn"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Reseal cylinder"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/hero.webp"
   },
   {
-    "id": 51,
-    "title": "Uneven tire wear",
+    "id": 118,
+    "title": "Low engine oil pressure",
     "machine": "Forklift",
-    "system": "Tires",
+    "system": "Engine",
+    "severity": "Critical",
+    "symptoms": [
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
+    ],
+    "causes": [
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
+    ],
+    "repair": [
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
+    ],
+    "image": "/assets/images/engine.webp"
+  },
+  {
+    "id": 119,
+    "title": "Cylinder creeping",
+    "machine": "Forklift",
+    "system": "Hydraulic",
     "severity": "Low",
     "symptoms": [
-      "Flat spots"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Misalignment"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Align steering"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/hydraulic.webp"
   },
   {
-    "id": 52,
-    "title": "Horn inoperative",
+    "id": 120,
+    "title": "Fuse repeatedly blows",
     "machine": "Forklift",
     "system": "Electrical",
     "severity": "Low",
     "symptoms": [
-      "No sound"
+      "Performance degradation noticed by operator",
+      "Intermittent behavior under load",
+      "Related warning indicator may be on"
     ],
     "causes": [
-      "Broken switch"
+      "Wear or contamination beyond service limits",
+      "Incorrect fluid level or spec",
+      "Electrical connection loose or corroded"
     ],
     "repair": [
-      "Replace horn switch"
+      "Verify complaint and capture codes/measurements",
+      "Inspect visually for leaks, damage and loose connections",
+      "Test components against service manual specifications",
+      "Repair/replace faulty parts; torque to spec",
+      "Bleed/flush and recalibrate; road test and recheck"
     ],
-    "image": "/assets/images/forklift.webp"
+    "image": "/assets/images/electrical.webp"
   }
 ]
